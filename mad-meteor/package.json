@@ -6,8 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "predeploy": "astro build",
-    "deploy": "gh-pages -d dist -r https://github.com/egonzato/PortfolioSetUp.git"
+    "postbuild": "touch dist/.nojekyll",
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "dependencies": {
     "astro": "^5.9.2"
