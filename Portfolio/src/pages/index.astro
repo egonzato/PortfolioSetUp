@@ -1,16 +1,40 @@
 ---
-
+import Sidebar from '../components/Sidebar.astro';
+import AnimatedSection from '../components/AnimatedSection.jsx';
 ---
-
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <Sidebar />
+    <main class="md:ml-60 p-6 mt-16 md:mt-0 space-y-12">
+      <section id="about">
+		<AnimatedSection>
+        <h1 class="text-3xl font-bold">Chi sono</h1>
+        <p>Paragrafo introduttivo.</p>
+		</AnimatedSection>
+      </section>
+      <section id="projects">
+		<AnimatedSection>
+        <h1 class="text-3xl font-bold">Progetti</h1>
+        <p>Descrizione dei progetti.</p>
+		</AnimatedSection>
+      </section>
+      <section id="skills">
+		<AnimatedSection>
+        <h1 class="text-3xl font-bold">Competenze</h1>
+        <p>Linguaggi, strumenti, tecnologie.</p>
+		</AnimatedSection>
+      </section>
+      <section id="contact">
+		<AnimatedSection>
+        <h1 class="text-3xl font-bold">Contatti</h1>
+        <p>Email, LinkedIn, ecc.</p>
+		</AnimatedSection>
+      </section>
+    </main>
+  </body>
 </html>
