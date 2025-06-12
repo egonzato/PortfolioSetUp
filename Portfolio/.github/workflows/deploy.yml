@@ -15,6 +15,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Disable Jekyll on GitHub Pages
+        run: echo "" > public/.nojekyll
+
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
