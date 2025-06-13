@@ -13,7 +13,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@astrojs/react": "^4.2.1",
@@ -30,7 +31,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss": "^4.0.14",
     "tw-animate-css": "^1.2.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.10"
   }
 }
