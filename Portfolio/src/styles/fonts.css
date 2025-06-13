@@ -1,14 +1,7 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/Inter/Inter-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter/Inter-Bold.woff2') format('woff2');
-  font-weight: 700;
+  src: url('/PortfolioSetUp//fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900; /* range di peso supportato */
   font-style: normal;
   font-display: swap;
 }
