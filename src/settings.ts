@@ -10,7 +10,7 @@ export const profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
+	email: 'elia.gonzato@outlook.it',
 	linkedin: 'https://www.linkedin.com/in/elia-gonzato',
 	x: 'https://www.x.com/',
 	github: 'https://github.com/egonzato'
@@ -21,7 +21,6 @@ export const template = {
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 200,
 	postPerPage: 5,
     base: '/PortfolioSetUp/' // Repository name starting with /
