@@ -1,23 +1,19 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
+	fullName: 'Elia Gonzato',
+	title: 'PhD student',
+	institute: 'UMC Amsterdam',
 	author_name: '', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest', field: 'biostatistics' },
 	],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
 	email: '',
-	linkedin: '',
+	linkedin: 'https://www.linkedin.com/in/elia-gonzato',
 	x: 'https://www.x.com/',
-	github: '',
-	gitlab: '',
-	scholar: '',
-	inspire: '',
-	arxiv: '',
+	github: 'https://github.com/egonzato'
 }
 
 export const template = {
@@ -32,7 +28,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
+	default_title: 'Elia Gonzato',
 	default_description: 'Astro Academia is a template for academic websites.',
 	default_image: '/images/astro-academia.png',
 }
