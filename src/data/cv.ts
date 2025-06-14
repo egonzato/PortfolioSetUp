@@ -17,18 +17,18 @@ export const experiences = [
 
 export const education = [
 	{
-		school: 'University of Padua',
-		time: '2018 - 2021',
-		degree: 'Food Science',
-		location: 'Vicenza, Italy',
-		description: 'Bachelor\'s degree in food science',
-	},
-	{
 		school: 'University of Milano Bicocca',
 		time: '2021 - 2024',
 		degree: 'Biostatistics',
 		location: 'Milan, Italy',
 		description: 'Master\'s degree in Biostatistics',
+	},
+	{
+		school: 'University of Padua',
+		time: '2018 - 2021',
+		degree: 'Food Science',
+		location: 'Vicenza, Italy',
+		description: 'Bachelor\'s degree in food science',
 	},
 	// {
 	// 	school: 'University of Paris',
