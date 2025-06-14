@@ -1,10 +1,10 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
-		description: '',
+		company: 'UMC Amsterdam',
+		time: 'Jan 2025 - Present',
+		title: 'PhD Student',
+		location: 'Amsterdam, Netherlands',
+		description: 'Doing research as a PhD student',
 	},
 	// {
 	// 	company: 'Radium Institute (Institut du Radium)',
@@ -17,11 +17,18 @@ export const experiences = [
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
-		description: '',
+		school: 'University of Padua',
+		time: '2018 - 2021',
+		degree: 'Food Science',
+		location: 'Vicenza, Italy',
+		description: 'Bachelor\'s degree in food science',
+	},
+	{
+		school: 'University of Milano Bicocca',
+		time: '2021 - 2024',
+		degree: 'Biostatistics',
+		location: 'Milan, Italy',
+		description: 'Master\'s degree in Biostatistics',
 	},
 	// {
 	// 	school: 'University of Paris',
@@ -34,8 +41,8 @@ export const education = [
 
 export const skills = [
 	{
-		title: '',
-		description: '',
+		title: 'Rabona fake',
+		description: 'illuding the opponent with faking a rabona',
 	},
 	// {
 	// 	title: 'Experimental Techniques',
@@ -45,12 +52,12 @@ export const skills = [
 
 export const publications = [
 	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
-		abstract: '',
+		title: 'Publications',
+		authors: 'Elia Gonzato',
+		journal: 'journal',
+		time: '2027',
+		link: 'https://www.article.com/article',
+		abstract: 'abstract',
 	},
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
