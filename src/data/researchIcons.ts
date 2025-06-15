@@ -58,5 +58,21 @@ export const RESEARCH_ICONS = {
   'biostatistics8': {
   path: 'M12 2v5m0 10v5m5-10h5m-15 0H2m2.5-7.5L12 12l7.5-7.5',
   title: 'Biostatistics'
+  },
+  'home': {
+    path: 'M3 9.75L12 3l9 6.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21V9.75z', // icona casa
+    title: 'Home'
+  },
+  'research': {
+    path: 'M21 21l-6-6m0 0a6 6 0 1 0-8.485-8.485A6 6 0 0 0 15 15z', // lente
+    title: 'Research'
+  },
+  'papers': {
+    path: 'M4 4h16v16H4V4zm4 4h8v2H8V8zm0 4h8v2H8v-2z', // documento con righe
+    title: 'Papers'
+  },
+  'cv': {
+    path: 'M16 3H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-4 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm-2 8h4v1H10v-1z', // profilo personale
+    title: 'CV'
   }
 } as const;

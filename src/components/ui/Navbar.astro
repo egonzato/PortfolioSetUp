@@ -5,6 +5,8 @@ import SocialIcons from './SocialIcons.astro'
 import ProfilePictures from '@/assets/profile.png'
 import { getCollection } from 'astro:content'
 import { template } from '@/settings'
+import BetterIcon from "@/components/ui/BetterIcon.astro";
+import {RESEARCH_ICONS} from "@/data/researchIcons";
 
 const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
 
@@ -21,16 +23,88 @@ const {fullName, title} = profile
 			<div class='mx-4 mt-16'>
 				<ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>
 					<li>
-                        <a href={`${template.base}/`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">Home</a>
+                        <a href={`${template.base}`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['home'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+								Home
+						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}/research`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">Research</a>
+                        <a href={`${template.base}research`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['research'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+							Research
+						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}/papers`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">Papers</a>
+                        <a href={`${template.base}papers`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['papers'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+							Papers
+						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}/cv`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">CV</a>
+                        <a href={`${template.base}cv`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['cv'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+							CV
+						</a>
                     </li>
                     {isBlogPopulated &&
 					<li>
