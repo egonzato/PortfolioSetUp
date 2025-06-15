@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets'
 
 import SocialIcons from './SocialIcons.astro'
+import UMCLogo from '@/assets/umc-amsterdam-logo-short.png'
 
 
 const {fullName, title, institute, profilePicture} = Astro.props
@@ -10,7 +11,18 @@ const {fullName, title, institute, profilePicture} = Astro.props
   <h1 class='text-4xl font-bold mb-4'>
     Welcome! I'm <span class='text-blue-900'>{fullName}</span>
   </h1>
-  <p class='text-xl font-bold text-blue-900 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
+  <div class="flex items-center gap-2 text-xl font-bold text-blue-900 mb-4">
+  <span>
+    {title}
+    {institute ? ` at ${institute}` : ''}
+  </span>
+  <Image
+    src={UMCLogo}
+    alt="UMC Amsterdam logo"
+    class="w-8 h-8 object-contain"
+  />
+</div>
+
   <p class='text-lg mb-6'>
     Brief impactful description of your research focus and academic mission.
     Highlight your key contributions and areas of expertise.
