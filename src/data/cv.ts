@@ -44,6 +44,22 @@ export const skills = [
 		title: 'Rabona fake',
 		description: 'illuding the opponent with faking a rabona',
 	},
+	{
+		title: 'Rabona fake',
+		description: 'illuding the opponent with faking a rabona',
+	},
+	{
+		title: 'Rabona fake',
+		description: 'illuding the opponent with faking a rabona',
+	},
+	{
+		title: 'Rabona fake',
+		description: 'illuding the opponent with faking a rabona',
+	},
+	{
+		title: 'Rabona fake',
+		description: 'illuding the opponent with faking a rabona',
+	},
 	// {
 	// 	title: 'Experimental Techniques',
 	// 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',

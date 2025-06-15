@@ -4,7 +4,15 @@ export const profile = {
 	institute: 'UMC Amsterdam',
 	author_name: '', // Author name to be highlighted in the papers section
 	research_areas: [
-		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, 
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics2' }, 
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics8' }, 
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics4' }, 
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics5' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics6' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics7' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics8' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics5' }
 	],
 }
 

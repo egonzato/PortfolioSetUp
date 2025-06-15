@@ -26,5 +26,37 @@ export const RESEARCH_ICONS = {
   'engineering': {
     path: 'M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z',
     title: 'Engineering'
+  },
+  'biostatistics1': {
+  path: 'M3 3v18h18M7 16v-4m4 4V8m4 8v-6m4 6V4',
+  title: 'Biostatistics'
+  },
+  'biostatistics2': {
+  path: 'M6 4a6 6 0 0112 0c0 1.8-.5 3.2-1.5 4.4a8 8 0 01-9 0C6.5 7.2 6 5.8 6 4zm0 16a6 6 0 0112 0c0-1.8-.5-3.2-1.5-4.4a8 8 0 00-9 0C6.5 16.8 6 18.2 6 20z',
+  title: 'Biostatistics2'
+  },
+  'biostatistics3': {
+  path: 'M12 2v8H4v4h8v8h4v-8h8v-4h-8V2h-4z',
+  title: 'Biostatistics3'
+  },
+  'biostatistics4': {
+  path: 'M4 20V4m0 0h16M8 20v-8m4 8v-4m4 4v-12',
+  title: 'Biostatistics'
+  },
+  'biostatistics5': {
+  path: 'M3 17l6-6 4 4 8-8M3 3v18h18',
+  title: 'Biostatistics'
+  },
+  'biostatistics6': {
+  path: 'M9 2v13a4 4 0 108 0V2m-8 4h8',
+  title: 'Biostatistics'
+  },
+  'biostatistics7': {
+  path: 'M7 3c2 2 8 2 10 0M7 21c2-2 8-2 10 0M7 3v18m10-18v18',
+  title: 'Biostatistics'
+  },
+  'biostatistics8': {
+  path: 'M12 2v5m0 10v5m5-10h5m-15 0H2m2.5-7.5L12 12l7.5-7.5',
+  title: 'Biostatistics'
   }
 } as const;

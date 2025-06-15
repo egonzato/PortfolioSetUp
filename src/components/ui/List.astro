@@ -8,13 +8,13 @@ interface Props {
 }
 const {listTitle, listItems} = Astro.props
 ---
-<h2 class="text-2xl font-bold mb-6">{listTitle}</h2>
+<h2 class="text-2xl text-blue-900 font-bold mb-6">{listTitle}</h2>
 <div class="grid gap-6 mb-12">
   {
     listItems.map((item) => (
-      <div class="p-6 bg-base-200 rounded-xl text-base-content">
-        <h3 class="text-xl font-semibold mb-3">{item.title}</h3>
-        <p>{item.description}</p>
+      <div class="p-6 bg-gradient-to-br from-blue-900 to-blue-800 rounded-xl text-base-content border border-blue-200/20 shadow-lg hover:scale-105 transition-transform">
+        <h3 class="text-xl text-white font-semibold mb-3">{item.title}</h3>
+        <p class="text-white">{item.description}</p>
       </div>
     ))
   }

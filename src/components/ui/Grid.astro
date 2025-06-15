@@ -12,7 +12,7 @@ const {gridTitle, gridItems} = Astro.props;
 <h2 class="text-3xl font-bold mb-8 text-blue-900">{gridTitle}</h2>
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-8xl">
   {gridItems.map((item) => (
-    <div class="p-6 rounded-lg bg-blue-900 text-white">
+    <div class="p-6 rounded-lg bg-blue-900 text-white hover:bg-blue-800 hover:shadow-lg transition duration-300 ease-in-out">
       <h3 class="text-xl font-semibold mb-3">{item.title}</h3>
       <p>{item.description}</p>
     </div>
