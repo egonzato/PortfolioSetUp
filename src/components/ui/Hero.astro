@@ -19,7 +19,7 @@ const {fullName, title, institute, profilePicture} = Astro.props
     <SocialIcons colorClass="text-blue-900" />
   </div>
 </div>
-<div class="w-64 h-64 rounded-full p-[3px] bg-gradient-to-tr from-blue-900 via-blue-600 to-blue-300 shadow-lg ring-2 ring-blue-900">
+<div class="w-64 h-64 rounded-full border-4 border-blue-900 p-[2px] shadow-lg overflow-hidden">
   <Image
     src={profilePicture}
     alt={fullName}

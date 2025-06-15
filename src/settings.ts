@@ -4,7 +4,7 @@ export const profile = {
 	institute: 'UMC Amsterdam',
 	author_name: '', // Author name to be highlighted in the papers section
 	research_areas: [
-		 { title: 'Biostatistics', description: 'Brief description of the research interest', field: 'biostatistics' },
+		 { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }, { title: 'Biostatistics', description: 'Brief description of the research interest fffffffffffffffffffv ffffffffffffffffffffffffffffff hhhhhhhhhhhhhhhhhhhh', field: 'biostatistics' }
 	],
 }
 
