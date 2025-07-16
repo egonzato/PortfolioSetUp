@@ -68,45 +68,29 @@ export const skills = [
 
 export const publications = [
 	{
-		title: 'Publications',
+		title: 'MSc Thesis',
 		authors: 'Elia Gonzato',
 		journal: 'gwnwianwieniwn wigqw qw qw w wr eqr  qer qer qrgrerger grgerwrgwrgr rwew',
-		time: '2027',
+		time: '2024',
 		link: 'https://www.article.com/article',
 		abstract: 'abstract',
 	},
 	{
-		title: 'Publications2',
+		title: 'SAS Curiosity Cup',
 		authors: 'Elia Gonzato',
 		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2030',
+		time: '2023',
 		link: 'https://www.article.com/article',
 		abstract: 'abstract',
 	},
 	{
-		title: 'Publications2',
+		title: 'CCM',
 		authors: 'Elia Gonzato',
 		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2030',
+		time: '2025',
 		link: 'https://www.article.com/article',
 		abstract: 'abstract',
-	},
-	{
-		title: 'Publications2',
-		authors: 'Elia Gonzato',
-		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2030',
-		link: 'https://www.article.com/article',
-		abstract: 'abstract',
-	},
-	{
-		title: 'Publications2',
-		authors: 'Elia Gonzato',
-		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2030',
-		link: 'https://www.article.com/article',
-		abstract: 'abstract',
-	},
+	}
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
 	// 	authors: 'Marie Curie',
