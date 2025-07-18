@@ -4,8 +4,8 @@ const { colorClass = 'text-blue-900' } = Astro.props
 
 const activeSocial = (Object.keys(social) as (keyof typeof social)[])
   .filter(key => social[key] !== '')
-const calculatedIconSize = activeSocial.length <= 5 ? 'size-6' : activeSocial.length <= 6 ? 'size-5' : 'size-4'
-const calculatedContainerSize = activeSocial.length <= 5 ? 'size-12' : activeSocial.length <= 6 ? 'size-10' : 'size-8'
+const calculatedIconSize = activeSocial.length <= 5 ? 'w-10 h-10' : activeSocial.length <= 6 ? 'w-8 h-8' : 'w-6 h-6'
+const calculatedContainerSize = activeSocial.length <= 5 ? 'w-14 h-14' : activeSocial.length <= 6 ? 'w-12 h-12' : 'w-10 h-10'
 ---
 
 <div class="flex flex-wrap justify-between items-center">

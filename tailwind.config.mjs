@@ -2,7 +2,14 @@
 export default {
     content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
     theme: {
-        extend: {},
+        extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				serif: ['Lora', 'serif'],
+                display: ['Poppins', 'sans-serif'],
+                title: ['Montserrat', 'sans-serif']
+			},
+		},
     },
     plugins: [require("@tailwindcss/typography"), require("daisyui")],
     daisyui: {

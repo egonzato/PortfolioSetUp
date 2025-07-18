@@ -66,6 +66,37 @@ export const skills = [
 	// },
 ];
 
+export const news = [
+	{
+		date: 'October 2025,',
+		contentHtml: 'Participated to SnB in Paris'
+	},
+	{
+		date: 'July 2025,',
+		contentHtml: 'Single-arm SAP published'
+	},
+	{
+		date: 'January 2025,',
+		contentHtml: 'Joined AUMC as a PhD Candidate in Biostatistics'
+	},
+	{
+		date: 'April 2024,',
+		contentHtml: 'EMC'
+	},
+	{
+		date: 'February 2024,',
+		contentHtml: 'KI Thesis'
+	},
+	{
+		date: 'June 2023,',
+		contentHtml: 'Participated at CMM with poster'
+	},
+	{
+		date: 'April 2023,',
+		contentHtml: 'SAS Curiosity Cup'
+	}
+]
+
 export const publications = [
 	{
 		title: 'MSc Thesis',

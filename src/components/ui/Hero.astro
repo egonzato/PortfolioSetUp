@@ -8,10 +8,10 @@ import UMCLogo from '@/assets/umc-amsterdam-logo-short.png'
 const {fullName, title, institute, profilePicture} = Astro.props
 ---
 <div class='flex-1'>
-  <h1 class='text-4xl font-bold mb-4'>
+  <h1 class='text-4xl font-title font-bold mb-4'>
     Welcome! I'm <span class='text-blue-900'>{fullName}</span>
   </h1>
-  <div class="flex items-center gap-2 text-xl font-bold text-blue-900 mb-4">
+  <div class="flex items-center gap-2 text-xl font-display font-bold text-blue-900 mb-4">
   <span>
     {title}
     {institute ? ` at ${institute}` : ''}
@@ -23,32 +23,42 @@ const {fullName, title, institute, profilePicture} = Astro.props
   />
 </div>
 
-  <p class='text-lg mb-6'>
+  <p class='text-lg mb-6 font-sans'>
     Hi! My name is Elia Gonzato <br>
-    PhD Candidate Biostatistics @AUMC, @Decision Modelling Centre <br>
-    I am a PhD Candidate in Biostatistics at Amsterdam University Medical Centre. I graduated in Biostatistics from University of Milano Bicocca, during which I took part in a hackathon organized by SAS were I was awarded the runner-up prize. I worked on my master thesis at Karolinska Institutet. I worked as a junior researcher at Erasmus University Medical Center at the Department of Public Health. I am now affiliated with Amsterdam Leukodystrophy Center, within Emma Children's Hospital, and the Department of Epidemiology and Data Science.
+    PhD Candidate Biostatistics 
+    <a href='https://www.amsterdamumc.org/en/organization/amsterdam-umc.htm' class="text-blue-900 hover:text-accent">
+      @AUMC,
+    </a> 
+    <a href='https://decisionmodelingcenter.nl/' class="text-blue-900 hover:text-accent">
+      @Decision Modelling Centre
+    </a> <br>
+    I am a PhD Candidate in Biostatistics at Amsterdam University Medical Centre. I graduated in Biostatistics from University of 
+    <a href='https://www.unimib.it/' class="text-blue-900 hover:text-accent">
+      Milano Bicocca,
+    </a> 
+    during which I took part in a hackathon organized by SAS were I was awarded the runner-up prize. I worked on my master thesis at
+    <a href='https://ki.se/en' class="text-blue-900 hover:text-accent">
+    Karolinska Institutet.
+    </a> 
+    I worked as a junior researcher at 
+    <a href='https://www.erasmusmc.nl/en/' class="text-blue-900 hover:text-accent">
+    Erasmus University Medical Center
+    </a>
+    at the Department of Public Health. I am now affiliated with
+    <a href='https://www.amsterdamumc.org/en/research/knowledge-centers/leukodystrophy-center.htm' class="text-blue-900 hover:text-accent">
+    Amsterdam Leukodystrophy Center,
+    </a>
+    within
+    <a href='https://www.amsterdamumc.nl/nl/emmakinderziekenhuis/home.htm' class="text-blue-900 hover:text-accent">
+    Emma Children's Hospital,
+    </a>
+    and the
+    <a href='https://www.amsterdamumc.org/en/departments/epidemiology-and-data-science-eds.htm' class="text-blue-900 hover:text-accent">
+    Department of Epidemiology and Data Science.
+    </a>
     My research focuses on improving clinical trials designs and statistical tools in ultra-rare diseases, where the availability of patients is constrained and the heterogeneity to study very wide. To improve the available methods and give my contribution to the field I am diving into causal inference and Bayesian statistics.
     Reach out if we are interested in the same topics and want to share your thoughts!
   </p>
-  <h2 class="text-xl font-semibold">News</h2>
-  <ul class='text-lg mb-6'>
-      <li>October 2025, Participated to SnB in Paris</li>
-      <li>July 2025, Single-arm SAP published</li>
-      <li>January 2025, Joined AUMC as a PhD Candidate in Biostatistics</li>
-      <li>April 2024, EMC</li>
-      <li>February 2024, KI Thesis</li>
-      <li>June 2023, Participated at CMM with poster</li>
-      <li>April 2023, SAS Curiosity Cup</li>
-    </ul>
-    <h2 class="text-xl font-semibold">Selected projects</h2>
-    <ul class='text-lg mb-6'>
-      <li>Time Varying Exposure</li>
-      <li>MSc Thesis</li>
-      <li>SAS Curiosity Cup paper</li>
-    </ul>
-  <div class='flex gap-4'>
-    <SocialIcons colorClass="text-blue-900" />
-  </div>
 </div>
 <div class="w-64 h-64 rounded-full border-4 border-blue-900 p-[2px] shadow-lg overflow-hidden">
   <Image
@@ -57,3 +67,4 @@ const {fullName, title, institute, profilePicture} = Astro.props
     class="w-full h-full rounded-full object-cover"
   />
 </div>
+
