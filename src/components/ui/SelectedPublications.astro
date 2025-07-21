@@ -7,12 +7,12 @@ import { template } from '@/settings'
   <h2 class="text-4xl font-bold mb-4 text-blue-900">Selected Publications</h2>
   <ul class="space-y-10">
     {selectedP.map(({ image, contentHtml }, index) => (
-      <li class="grid grid-cols-[300px_1fr] gap-8">
+      <li class="grid grid-cols-[150px_1fr] gap-8">
         <div>
           <img 
             src={`${template.base}${image}`} 
             alt="Time varying exposure" 
-            class="max-w-[250px] h-auto cursor-zoom-in hover:scale-105 transition-transform duration-200"
+            class="max-w-[150px] h-auto cursor-zoom-in hover:scale-105 transition-transform duration-200"
             onClick={`document.getElementById('zoom-img-${index}').classList.remove('hidden')`}
           />
         </div>
