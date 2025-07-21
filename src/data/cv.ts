@@ -131,3 +131,10 @@ export const publications = [
 	// 	abstract: 'Early research leading to the identification of uranium’s radioactive properties.',
 	// },
 ];
+
+export const selectedpublications = [
+	{
+		image: 'ccm2023.png',
+		contentHtml: ''
+	}
+]

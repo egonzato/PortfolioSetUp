@@ -4,12 +4,15 @@ import Layout from '../layouts/Layout.astro'
 import { profile } from '@/settings'
 import { publications } from '@/data/cv'
 import { news } from '@/data/cv'
+import { selectedpublications } from '@/data/cv'
 import ProfilePictures from '@/assets/profile.png'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
 import NewsList from '@/components/ui/NewsList.astro'
+import SelectedPublications from '@/components/ui/SelectedPublications.astro'
 import SocialIcons from '../components/ui/SocialIcons.astro'
+import PublicationsList from '@/components/ui/PublicationsList.astro'
 
 const { fullName, title, institute, research_areas } = profile
 
@@ -34,7 +37,10 @@ const { fullName, title, institute, research_areas } = profile
 	</section> -->
 
 	<!-- Recent Publications -->
-		<NewsList newsTitle="news" newsItems={news} />
+		<NewsList newsTitle="News" newsItems={news} />
+
+	<!-- Selected Publications -->
+	 	<SelectedPublications selectedP={selectedpublications}/>
 	<div class='flex justify-center gap-4'>
     <SocialIcons colorClass="text-blue-900" />
   </div>
