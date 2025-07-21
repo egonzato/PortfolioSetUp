@@ -1,3 +1,5 @@
+const template = '/PortfolioSetUp/'
+
 export const experiences = [
 	{
 		company: 'UMC Amsterdam',
@@ -135,6 +137,14 @@ export const publications = [
 export const selectedpublications = [
 	{
 		image: 'ccm2023.png',
-		contentHtml: ''
+		contentHtml: '<a href="/PortfolioSetUp/GonzatoElia_CCM2023.pdf" target="_blank" class="text-blue-900 hover:text-accent">Time Varying Exposure</a>'
+	},
+	{
+		image: 'tesi.png',
+		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">MSc Thesis</a>'
+	},
+	{
+		image: 'curiosity cup.png',
+		contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent">SAS Curiosity Cup paper</a>'
 	}
 ]
