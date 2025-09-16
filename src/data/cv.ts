@@ -71,59 +71,63 @@ export const skills = [
 export const news = [
 	{
 		date: 'October 2025,',
-		contentHtml: 'Participated to SnB in Paris'
+		contentHtml: 'Participated to conference Statistics and Biopharmacy in Paris to catch up with the latest developments of statistics in clinical trials for rare diseases'
 	},
 	{
 		date: 'July 2025,',
-		contentHtml: 'Single-arm SAP published'
+		contentHtml: 'Statistical Analysis Plan for the Guanabenz single arm trial has been published'
 	},
 	{
 		date: 'January 2025,',
-		contentHtml: 'Joined AUMC as a PhD Candidate in Biostatistics'
+		contentHtml: 'Joined Amsterdam University Medical Center as a PhD Candidate in Biostatistics. I will be dive into clinical trials in rare diseases, with a specific focus on Vanishing White Matter'
 	},
 	{
 		date: 'April 2024,',
-		contentHtml: 'EMC'
+		contentHtml: 'Started working as Junior Researcher at Erasmus University Medical Center'
 	},
 	{
 		date: 'February 2024,',
-		contentHtml: 'KI Thesis'
+		contentHtml: 'Graduated in Biostatistics from University of Milano-Bicocca with my thesis titled ‘Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center’'
+	},
+	{
+		date: 'September 2023,',
+		contentHtml: 'Joined as visiting researcher the department of cell therapy and allogeneic stem cell transplantation at Karolinska Institutet'
 	},
 	{
 		date: 'June 2023,',
-		contentHtml: 'Participated at CMM with poster'
+		contentHtml: 'Participated at Colloquium Chemometricum Mediterraneum with a poster about predicting microbial load on seafood products with near-infrared spectroscopy'
 	},
 	{
 		date: 'April 2023,',
-		contentHtml: 'SAS Curiosity Cup'
+		contentHtml: 'Results from the SAS Curiosity Cup have been published, we won the runner-up prize in the data analysis category.'
 	}
 ]
 
 export const publications = [
-	{
-		title: 'MSc Thesis',
-		authors: 'Elia Gonzato',
-		journal: 'gwnwianwieniwn wigqw qw qw w wr eqr  qer qer qrgrerger grgerwrgwrgr rwew',
-		time: '2024',
-		link: 'https://www.article.com/article',
-		abstract: 'abstract',
-	},
-	{
-		title: 'SAS Curiosity Cup',
-		authors: 'Elia Gonzato',
-		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2023',
-		link: 'https://www.article.com/article',
-		abstract: 'abstract',
-	},
-	{
-		title: 'CCM',
-		authors: 'Elia Gonzato',
-		journal: 'grgrrrrrrrrrrrrrrrrrht  hhhhhhhhhhhhhhhhhhhhhhhhhhhh rrrrrrrrrrrrrrrrrrrrrrrrrrr eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee tttttttttttttttttttttt',
-		time: '2025',
-		link: 'https://www.article.com/article',
-		abstract: 'abstract',
-	}
+  {
+    title: 'Handling multiple time-varying exposures in survival analysis',
+    authors: 'Elia Gonzato',
+    journal: '',
+    time: '2024',
+    contentHtml: '<a href="https://www.nature.com/articles/s41598-025-14849-5" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
+    abstract: 'This study used paediatric data to compare methods for modeling multiple time-varying exposures in survival analysis. ...',
+  },
+  {
+    title: 'Effect of transplant characteristics and complications (Master Thesis)',
+    authors: 'Elia Gonzato',
+    journal: '',
+    time: '2023',
+    contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">MSc Thesis</a>',
+    abstract: 'Using data from 674 transplants in Stockholm (2015–2023), ...',
+  },
+  {
+    title: 'Smokeless tobacco consumption and non-fatal stroke',
+    authors: 'Elia Gonzato',
+    journal: '',
+    time: '2025',
+    contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">SAS Curiosity Cup paper</a>',
+    abstract: 'This paper aims to investigate the association between smokeless tobacco ...',
+  }
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
 	// 	authors: 'Marie Curie',
