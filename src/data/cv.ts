@@ -140,7 +140,7 @@ export const publications = [
 
 export const selectedpublications = [
 	{
-		image: 'ccm2023.png',
+		image: 'bootvaccine.png',
 		contentHtml: '<a href="https://www.nature.com/articles/s41598-025-14849-5" target="_blank" class="text-blue-900 hover:text-accent">Handling multiple time-varying exposures in survival analysis using real-world pediatric data from the pedianet database</a>'
 	},
 	{
