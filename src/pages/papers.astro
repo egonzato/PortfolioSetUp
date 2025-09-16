@@ -1,10 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { publications } from "@/data/cv";
-import { highlightAuthor } from "@/lib/utils";
-import {template} from "@/settings";
 
-const ALL_PAPERS = publications; // This will be replaced with dynamic data later
+function extractHref(html: string) {
+  const match = html.match(/href="([^"]+)"/);
+  return match ? match[1] : "#";
+}
+
+const ALL_PAPERS = publications;
 ---
 
 <Layout title="Papers | Elia Gonzato">
@@ -17,20 +20,18 @@ const ALL_PAPERS = publications; // This will be replaced with dynamic data late
           <div class="card bg-base-200">
             <div class="card-body">
               <h2 class="card-title text-xl">
-                <a href={paper.link} class="text-blue-900 hover:text-accent">
+                <p class="text-blue-900">
                   {paper.title}
-                </a>
+                </p>
               </h2>
-              <p class="text-base mb-2">
-                <span class="font-medium text-blue-900">Authors:</span>{" "}
-                <span set:html={highlightAuthor(paper.authors)} />
-              </p>
-              <p class="text-sm mb-3">
-                <span class="italic">{paper.journal}</span> • {paper.time}
-              </p>
               <p class="text-sm text-blue-900 text-base-content/80">{paper.abstract}</p>
               <div class="card-actions justify-end mt-4">
-                <a href={paper.link} class="btn btn-sm bg-blue-900 border border-blue-900 text-white hover:bg-white hover:text-blue-900 transition duration-300 ease-in-out">
+                <a 
+                  href={extractHref(paper.contentHtml)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-sm bg-blue-900 border border-blue-900 text-white hover:bg-white hover:text-blue-900 transition duration-300 ease-in-out"
+                >
                   Read Paper
                 </a>
               </div>
@@ -38,16 +39,6 @@ const ALL_PAPERS = publications; // This will be replaced with dynamic data late
           </div>
         ))
       }
-    </div>
-
-    <div class="flex justify-center mt-8">
-      <div class="join">
-        <button class="join-item btn btn-sm">«</button>
-        <button class="join-item btn btn-sm">1</button>
-        <button class="join-item btn btn-sm btn-active">2</button>
-        <button class="join-item btn btn-sm">3</button>
-        <button class="join-item btn btn-sm">»</button>
-      </div>
     </div>
   </div>
 </Layout>

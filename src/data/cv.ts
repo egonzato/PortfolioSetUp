@@ -110,7 +110,7 @@ export const publications = [
     journal: '',
     time: '2024',
     contentHtml: '<a href="https://www.nature.com/articles/s41598-025-14849-5" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
-    abstract: 'This study used paediatric data to compare methods for modeling multiple time-varying exposures in survival analysis. ...',
+    abstract: 'This study used paediatric data to compare methods for modeling multiple time-varying exposures in survival analysis. Influenza vaccination estimates were consistent across approaches, while antibiotic use estimates varied. The results highlight the need for careful method selection when handling multiple Time-Varying exposures.',
   },
   {
     title: 'Effect of transplant characteristics and complications (Master Thesis)',
@@ -118,7 +118,7 @@ export const publications = [
     journal: '',
     time: '2023',
     contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">MSc Thesis</a>',
-    abstract: 'Using data from 674 transplants in Stockholm (2015–2023), ...',
+    abstract: 'Using data from 674 transplants in Stockholm (2015–2023), researchers assessed how donor type affects survival after haematopoietic stem cell transplantation. Recipients with mismatched related donors had poorer survival compared to those with identical sibling donors. Mediation analysis indicated that graft-versus-host disease only minimally explained these differences. The study underscores the continuing importance of finding compatible donors to improve outcomes.',
   },
   {
     title: 'Smokeless tobacco consumption and non-fatal stroke',
@@ -126,7 +126,7 @@ export const publications = [
     journal: '',
     time: '2025',
     contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">SAS Curiosity Cup paper</a>',
-    abstract: 'This paper aims to investigate the association between smokeless tobacco ...',
+    abstract: 'This paper aims to investigate the association between smokeless tobacco products consumption and non-fatal stroke event, through a cross-sectional study, using the 2020 BRFSS database. We accomplish this task by estimating a logistic model. As the percentage of missing values is significant, multiple imputation is performed and a second logistic regression is carried out. Then, we compare parameters from the two analyses, and comment results',
   }
 	// {
 	// 	title: 'The Radiation of Uranium Compounds',
@@ -141,7 +141,7 @@ export const publications = [
 export const selectedpublications = [
 	{
 		image: 'ccm2023.png',
-		contentHtml: '<a href="/PortfolioSetUp/GonzatoElia_CCM2023.pdf" target="_blank" class="text-blue-900 hover:text-accent">Time Varying Exposure</a>'
+		contentHtml: '<a href="https://www.nature.com/articles/s41598-025-14849-5" target="_blank" class="text-blue-900 hover:text-accent">Time Varying Exposure</a>'
 	},
 	{
 		image: 'tesi.png',
