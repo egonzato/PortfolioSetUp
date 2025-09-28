@@ -145,10 +145,10 @@ export const selectedpublications = [
 	},
 	{
 		image: 'tesi.png',
-		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">MSc Thesis</a>'
+		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">Effect of transplant characteristics and complications (Master Thesis)</a>'
 	},
 	{
 		image: 'curiosity cup.png',
-		contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent">SAS Curiosity Cup paper</a>'
+		contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent">Smokeless tobacco consumption and non-fatal stroke - SAS Curiosity Cup</a>'
 	}
 ]
