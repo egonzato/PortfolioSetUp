@@ -121,7 +121,7 @@ export const publications = [
     abstract: 'Using data from 674 transplants in Stockholm (2015–2023), researchers assessed how donor type affects survival after haematopoietic stem cell transplantation. Recipients with mismatched related donors had poorer survival compared to those with identical sibling donors. Mediation analysis indicated that graft-versus-host disease only minimally explained these differences. The study underscores the continuing importance of finding compatible donors to improve outcomes.',
   },
   {
-    title: 'Smokeless tobacco consumption and non-fatal stroke',
+    title: 'Smokeless tobacco consumption and non-fatal stroke - SAS Curiosity Cup',
     authors: 'Elia Gonzato',
     journal: '',
     time: '2025',
