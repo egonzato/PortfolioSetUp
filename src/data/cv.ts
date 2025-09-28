@@ -71,7 +71,7 @@ export const skills = [
 export const news = [
 	{
 		date: 'October 2025',
-		contentHtml: 'Participated to conference Statistics and Biopharmacy in Paris to catch up with the latest developments of statistics in clinical trials for rare diseases'
+		contentHtml: 'Participated to "Statistics and Biopharmacy (SnB)" in Paris to catch up with the latest developments of statistics in clinical trials for rare diseases'
 	},
 	{
 		date: 'July 2025',
@@ -79,7 +79,7 @@ export const news = [
 	},
 	{
 		date: 'January 2025',
-		contentHtml: 'Joined Amsterdam University Medical Center as a PhD Candidate in Biostatistics. I will be dive into clinical trials in rare diseases, with a specific focus on Vanishing White Matter'
+		contentHtml: 'Joined Amsterdam University Medical Center as a PhD Candidate in Biostatistics. I will dive into clinical trials in rare diseases, with a specific focus on Vanishing White Matter'
 	},
 	{
 		date: 'April 2024',
@@ -87,7 +87,7 @@ export const news = [
 	},
 	{
 		date: 'February 2024',
-		contentHtml: 'Graduated in Biostatistics from University of Milano-Bicocca with my thesis titled ‘Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center’'
+		contentHtml: 'Graduated in Biostatistics from University of Milano-Bicocca with my thesis titled "Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center"'
 	},
 	{
 		date: 'September 2023',
@@ -99,7 +99,7 @@ export const news = [
 	},
 	{
 		date: 'April 2023',
-		contentHtml: 'Results from the SAS Curiosity Cup have been published, we won the runner-up prize in the data analysis category.'
+		contentHtml: 'Results from the SAS Curiosity Cup have been published, we won the runner-up prize in the "Data Analysis" category.'
 	}
 ]
 
