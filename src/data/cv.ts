@@ -125,7 +125,7 @@ export const publications = [
     authors: 'Elia Gonzato',
     journal: '',
     time: '2025',
-    contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">SAS Curiosity Cup paper</a>',
+    contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Smokeless tobacco consumption and non-fatal stroke - SAS Curiosity Cup</a>',
     abstract: 'This paper aims to investigate the association between smokeless tobacco products consumption and non-fatal stroke event, through a cross-sectional study, using the 2020 BRFSS database. We accomplish this task by estimating a logistic model. As the percentage of missing values is significant, multiple imputation is performed and a second logistic regression is carried out. Then, we compare parameters from the two analyses, and comment results',
   }
 	// {
