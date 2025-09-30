@@ -113,7 +113,7 @@ export const publications = [
     abstract: 'This study used paediatric data to compare methods for modeling multiple time-varying exposures in survival analysis. Influenza vaccination estimates were consistent across approaches, while antibiotic use estimates varied. The results highlight the need for careful method selection when handling multiple Time-Varying exposures.',
   },
   {
-    title: 'Effect of transplant characteristics and complications (Master Thesis)',
+    title: 'Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center (Master Thesis)',
     authors: 'Elia Gonzato',
     journal: '',
     time: '2023',
