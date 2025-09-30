@@ -117,7 +117,7 @@ export const publications = [
     authors: 'Elia Gonzato',
     journal: '',
     time: '2023',
-    contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Effect of transplant characteristics and complications (Master Thesis)</a>',
+    contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center (Master Thesis)</a>',
     abstract: 'Using data from 674 transplants in Stockholm (2015–2023), researchers assessed how donor type affects survival after haematopoietic stem cell transplantation. Recipients with mismatched related donors had poorer survival compared to those with identical sibling donors. Mediation analysis indicated that graft-versus-host disease only minimally explained these differences. The study underscores the continuing importance of finding compatible donors to improve outcomes.',
   },
   {
@@ -145,7 +145,7 @@ export const selectedpublications = [
 	},
 	{
 		image: 'tesi.png',
-		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">Effect of transplant characteristics and complications (Master Thesis)</a>'
+		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center (Master Thesis)</a>'
 	},
 	{
 		image: 'curiosity cup.png',
