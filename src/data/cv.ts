@@ -105,7 +105,7 @@ export const news = [
 
 export const publications = [
   {
-    title: 'Handling multiple time-varying exposures in survival analysis',
+    title: 'Handling multiple time-varying exposures in survival analysis using real-world pediatric data from the pedianet database',
     authors: 'Elia Gonzato',
     journal: '',
     time: '2024',
