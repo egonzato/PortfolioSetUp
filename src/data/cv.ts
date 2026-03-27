@@ -70,6 +70,10 @@ export const skills = [
 
 export const news = [
 	{
+		date: 'March 2026',
+		contentHtml: 'Presented at Survival Analysis for Junior Researchers Conference in Amsterdam'
+	},
+	{
 		date: 'October 2025',
 		contentHtml: 'Participated to "Statistics and Biopharmacy (SnB)" in Paris to catch up with the latest developments of statistics in clinical trials for rare diseases'
 	},
@@ -93,14 +97,14 @@ export const news = [
 		date: 'September 2023',
 		contentHtml: 'Joined as visiting researcher the department of cell therapy and allogeneic stem cell transplantation at Karolinska Institutet'
 	},
-	{
-		date: 'June 2023',
-		contentHtml: 'Participated at Colloquium Chemometricum Mediterraneum with a poster about predicting microbial load on seafood products with near-infrared spectroscopy'
-	},
-	{
-		date: 'April 2023',
-		contentHtml: 'Results from the SAS Curiosity Cup have been published, we won the runner-up prize in the "Data Analysis" category.'
-	}
+	//{
+	//	date: 'June 2023',
+	//	contentHtml: 'Participated at Colloquium Chemometricum Mediterraneum with a poster about predicting microbial load on seafood products with near-infrared spectroscopy'
+	//},
+	//{
+	//	date: 'April 2023',
+	//	contentHtml: 'Results from the SAS Curiosity Cup have been published, we won the runner-up prize in the "Data Analysis" category.'
+	//}
 ]
 
 export const publications = [
