@@ -65,6 +65,27 @@ const {fullName, title} = profile
 						</a>
 					</li> -->
 					<li>
+                        <a href={`${template.base}CV_GonzatoElia.pdf`} target="_blank" class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['cv'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+							CV
+						</a>
+                    </li>
+										<li>
                         <a href={`${template.base}papers`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
 							<BetterIcon>
               					<svg
@@ -86,7 +107,7 @@ const {fullName, title} = profile
 						</a>
 					</li>
 					<li>
-                        <a href={`${template.base}CV_GonzatoElia.pdf`} target="_blank" class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+                        <a href={`${template.base}presentations`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
 							<BetterIcon>
               					<svg
              						xmlns="http://www.w3.org/2000/svg"
@@ -99,19 +120,41 @@ const {fullName, title} = profile
                 					<path
                   						stroke-linecap="round"
                   						stroke-linejoin="round"
-                  						d={RESEARCH_ICONS['cv'].path}
+                  						d={RESEARCH_ICONS['presentations'].path}
                 					/>
               					</svg>
             				</BetterIcon>
-							CV
+							Presentations
 						</a>
-                    </li>
-                    {isBlogPopulated &&
-					<li>
-                        <a href={`${template.base}/blog/1`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">Blog</a>
-</li>
-                    }
-				</ul>
+					</li>
+					<!-- <li>
+                        <a href={`${template.base}timeline`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+							<BetterIcon>
+              					<svg
+             						xmlns="http://www.w3.org/2000/svg"
+                					viewBox="0 0 24 24"
+                					fill="none"
+                					stroke="white"
+                					stroke-width="2"
+                					class="size-6 bg-transparent"
+              					>
+                					<path
+                  						stroke-linecap="round"
+                  						stroke-linejoin="round"
+                  						d={RESEARCH_ICONS['timeline'].path}
+                					/>
+              					</svg>
+            				</BetterIcon>
+							Timeline
+						</a>
+					</li> -->
+		{isBlogPopulated && (
+		<li>
+			<a href={`${template.base}/blog/1`} class="text-lg text-white hover:text-gray-300 transition-colors duration-200">
+			Blog
+			</a>
+		</li>
+		)}				</ul>
 			</div>
 		</div>
 		<div class='mx-4'>

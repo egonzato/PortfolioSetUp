@@ -74,5 +74,13 @@ export const RESEARCH_ICONS = {
   'cv': {
     path: 'M16 3H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-4 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm-2 8h4v1H10v-1z', // profilo personale
     title: 'CV'
+  },
+  'presentations': {
+    path: 'M3 4.5h18M4.5 4.5v12a1.5 1.5 0 0 0 1.5 1.5h12a1.5 1.5 0 0 0 1.5-1.5v-12M9 21h6M12 18v3',
+    title: 'Presentations'
   }
+  // 'timeline': {
+  //   path: 'M4 12h4m4 0h4m4 0h4M6 12a1.5 1.5 0 1 0 0 .001M12 12a1.5 1.5 0 1 0 0 .001M18 12a1.5 1.5 0 1 0 0 .001',
+  //   title: 'Timeline'
+  // },
 } as const;
