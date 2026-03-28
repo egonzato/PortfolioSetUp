@@ -14,18 +14,18 @@ const ALL_PRESENTATIONS = presentations;
   <div class="prose max-w-none">
     <h1 class="text-3xl text-blue-900 font-bold mb-8">Presentations</h1>
 
-    <div class="space-y-8">
+    <div class="space-y-6">
       {
         ALL_PRESENTATIONS.map((paper) => (
           <div class="card bg-base-200">
-            <div class="card-body">
-              <h2 class="card-title text-xl">
-                <p class="text-blue-900">
+            <div class="card-body p-3 md:p-5">
+              <h2 class="card-title text-3xl md:text-4xl mb-1">
+                <p class="text-lg md:text-xl mt-0 text-blue-900 font-bold">
                   {paper.title}
                 </p>
               </h2>
-              <p class="text-sm text-blue-900 text-base-content/80">{paper.abstract}</p>
-              <div class="card-actions justify-end mt-4">
+              <p class="text-base md:text-lg text-black mb-4">{paper.abstract}</p>
+              <div class="card-actions justify-end">
                 <a 
                   href={extractHref(paper.contentHtml)}
                   target="_blank"

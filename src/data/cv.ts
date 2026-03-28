@@ -164,7 +164,7 @@ export const presentations = [
     journal: '11th Survival Analysis for Junior Researchers',
     time: '2026',
     contentHtml: '<a href="/PortfolioSetUp/assessing_comparability_sat_eg.pptx" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
-    abstract: '',
+    abstract: 'Randomised controlled trials (RCTs) are considered the gold standard for assessing the causal effect of an intervention compared to a control condition. However, RCTs are not always feasible due to practical or ethical constraints. An alternative to RCTs is the single arm trial (SAT), an open label design where all eligible patients receive the treatment and data for the control condition must be found elsewhere, usually in the form of historical controls in, for instance, a registration database.',
   },
 
 	// {
