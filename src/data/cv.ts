@@ -74,6 +74,10 @@ export const news = [
 		contentHtml: 'Presented at Survival Analysis for Junior Researchers Conference in Amsterdam'
 	},
 	{
+		date: 'January 2026',
+		contentHtml: 'Became a member of Vereniging voor Statistiek en Operations Research (VVSOR) in the Statistics Communication sections,  and wrote my first blog'
+	},
+	{
 		date: 'October 2025',
 		contentHtml: 'Participated to "Statistics and Biopharmacy (SnB)" in Paris to catch up with the latest developments of statistics in clinical trials for rare diseases'
 	},
