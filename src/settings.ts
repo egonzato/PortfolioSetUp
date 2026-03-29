@@ -21,7 +21,8 @@ export const social = {
 	email: 'elia.gonzato@outlook.it',
 	linkedin: 'http://www.linkedin.com/in/elia-gonzato-75172b190',
 	x: 'https://www.x.com/',
-	github: 'https://github.com/egonzato'
+	github: 'https://github.com/egonzato',
+  	blog: 'https://blog.vvsor.nl/author/elia-gonzato/',  // your blog URL
 }
 
 export const template = {
