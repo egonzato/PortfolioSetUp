@@ -75,7 +75,7 @@ export const news = [
 	},
 	{
 		date: 'January 2026',
-		contentHtml: 'Became a member of Vereniging voor Statistiek en Operations Research (VVSOR) in the Statistics Communication sections,  and wrote my first blog'
+		contentHtml: 'Became a member of "Vereniging voor Statistiek en Operations Research (VVSOR)" in the Statistics Communication sections,  and wrote my first blog'
 	},
 	{
 		date: 'October 2025',
