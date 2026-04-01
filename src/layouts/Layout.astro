@@ -31,6 +31,31 @@ const {
 		<Head title={title} description={description} image={image} />
 		<meta name="viewport" content="width=device-width, initial-scale=1.10">
 
+		<head>
+			{template.transitions && <ClientRouter /> }
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=IBM+Plex+Sans:wght@400;600&family=Source+Sans+3:wght@400;600&family=Merriweather+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+			<Head title={title} description={description} image={image} />
+			<meta name="viewport" content="width=device-width, initial-scale=1.20">
+			
+			<!-- ADD THIS PERSON SCHEMA FOR GOOGLE RANKING -->
+			<script type="application/ld+json">
+			{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Elia Gonzato",
+			"jobTitle": "Biostatistician",
+			"description": "Biostatistician specializing in clinical trials, survival analysis, causal inference, R and Julia programming",
+			"url": "https://egonzato.github.io/PortfolioSetUp/",
+			"sameAs": [
+				"https://linkedin.com/in/eliagonzato",
+				"https://github.com/egonzato"
+			],
+			"image": "https://egonzato.github.io/PortfolioSetUp/assets/profile.png",
+			"knowsAbout": ["clinical trials", "survival analysis", "causal inference", "R programming", "Julia programming"]
+			}
+			</script>
+		</head>
 
 	</head>
 	<body>
