@@ -113,6 +113,14 @@ export const news = [
 
 export const publications = [
   {
+    title: 'Exposure-response relationship between transportation noise and cardiovascular disease outcomes: a systematic review and meta-regression analysis',
+    authors: 'Elia Gonzato',
+    journal: '',
+    time: '2024',
+    contentHtml: '<a href="https://www.nature.com/articles/s41370-026-00856-9" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
+    abstract: 'This study adds to the existing literature by providing a comprehensive comparison of the association between long-term exposure to transportation noise sources and CVD outcomes using both conventional and BoP methodologies.',
+  },
+  {
     title: 'Handling multiple time-varying exposures in survival analysis using real-world pediatric data from the pedianet database',
     authors: 'Elia Gonzato',
     journal: '',
