@@ -70,6 +70,10 @@ export const skills = [
 
 export const news = [
 	{
+		date: 'August 2026',
+		contentHtml: 'Published results of the Guanabenz trial'
+	},
+	{
 		date: 'March 2026',
 		contentHtml: 'Presented at Survival Analysis for Junior Researchers Conference in Amsterdam'
 	},
@@ -112,6 +116,14 @@ export const news = [
 ]
 
 export const publications = [
+  {
+    title: 'Safety and efficacy of guanabenz in early-childhood onset vanishing white matter: primary analysis of a single-arm, phase 1/2 trial',
+    authors: 'Elia Gonzato',
+    journal: '',
+    time: '2026',
+    contentHtml: '<a href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(26)00241-3/abstract" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
+    abstract: 'Vanishing white matter is a neurodegenerative disease with onset mostly in children aged 1–6 years that causes early death and has no effective therapy. The disease is caused by a genetic defect affecting eukaryotic initiation factor 2B, a key regulator of the integrated stress response. The α2-adrenergic antihypertensive drug guanabenz inhibits this stress response and has shown benefit in a mouse model of the disease. We aimed to assess the safety, tolerability, and efficacy of guanabenz in young children with vanishing white matter.',
+  },
   {
     title: 'Exposure-response relationship between transportation noise and cardiovascular disease outcomes: a systematic review and meta-regression analysis',
     authors: 'Elia Gonzato',
@@ -156,22 +168,38 @@ export const publications = [
 
 export const selectedpublications = [
 	{
+		image: 'gbzkm.png',
+		contentHtml: '<a href="https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(26)00241-3/abstract" target="_blank" class="text-blue-900 hover:text-accent">Safety and efficacy of guanabenz in early-childhood onset vanishing white matter: primary analysis of a single-arm, phase 1/2 trial</a>'
+	},
+	{
 		image: 'bootvaccine.png',
 		contentHtml: '<a href="https://www.nature.com/articles/s41598-025-14849-5" target="_blank" class="text-blue-900 hover:text-accent">Handling multiple time-varying exposures in survival analysis using real-world pediatric data from the pedianet database</a>'
 	},
-	{
-		image: 'tesi.png',
-		contentHtml: '<a href="/PortfolioSetUp/Tesi_di_Gonzato_Elia___889721.pdf" target="_blank" class="text-blue-900 hover:text-accent">Effect of transplant characteristics and of complications on survival outcomes of allogeneic stem cell transplantation: the experience of Stockholm center (Master Thesis)</a>'
-	},
-	{
+		{
 		image: 'curiosity cup.png',
 		contentHtml: '<a href="/PortfolioSetUp/SASNuff.pdf" target="_blank" class="text-blue-900 hover:text-accent">Smokeless tobacco consumption and non-fatal stroke - SAS Curiosity Cup</a>'
 	}
 ];
 
 export const presentations = [
-  {
-    title: 'Assessing comparability in single-arm trials for rare diseases, with time-to-event endpoints',
+	{
+    title: 'Assessing comparability in single-arm trials for rare diseases, with time-to-event endpoints (ISCB 2026, oral)',
+    authors: 'Elia Gonzato',
+    journal: '11th Survival Analysis for Junior Researchers',
+    time: '2026',
+    contentHtml: '<a href="/PortfolioSetUp/assessing_comparability_sat_anchoring_eg_submission.pptx" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
+    abstract: 'Randomised controlled trials (RCTs) are considered the gold standard for assessing the causal effect of an intervention compared to a control condition. However, RCTs are not always feasible due to practical or ethical constraints. An alternative to RCTs is the single arm trial (SAT), an open label design where all eligible patients receive the treatment and data for the control condition must be found elsewhere, usually in the form of historical controls in, for instance, a registration database. We illustrate the methodological work done on the Guanabenz trial.',
+    },
+	{
+    title: 'A scoping review on statistical methods and study designs for trials investigating experimental drugs in ultra-rare diseases (ISCB 2026, poster)',
+    authors: 'Elia Gonzato',
+    journal: '11th Survival Analysis for Junior Researchers',
+    time: '2026',
+    contentHtml: '<a href="/PortfolioSetUp/review_stats_methods_rare_disease_eg_submission.png" target="_blank" class="text-blue-900 hover:text-accent transition-colors duration-200">Time Varying Exposure</a>',
+    abstract: 'An ultra-rare disease is a medical condition that affects very few people, with its definition regarding incidence ranging from 1 in 50,000 people to 1 in 100,000. Currently, there are no treatments available for of the majority of ultra-rare diseases, for several reasons. Due to the low number of available patients, setting up a clinical trial is challenging, as is choosing a suitable design. To synthesise the literature, we conducted a scoping review and found a gap between methodological and applied work. We will illustrate this gap, elaborate on the reasons of such.',
+    },
+    {
+    title: 'Assessing comparability in single-arm trials for rare diseases, with time-to-event endpoints (SAfJR 2026, oral)',
     authors: 'Elia Gonzato',
     journal: '11th Survival Analysis for Junior Researchers',
     time: '2026',
