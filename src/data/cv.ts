@@ -70,6 +70,11 @@ export const skills = [
 
 export const news = [
 	{
+		date: 'September 2026',
+		contentHtml: 'Participated in the 47t edition of ISCB, in Freiburg with a poster and an oral presentation'
+	},
+
+	{
 		date: 'August 2026',
 		contentHtml: 'Published results of the guanabenz trial on vanishing white matter patients: a single-arm, phase 1/2 trial'
 	},
