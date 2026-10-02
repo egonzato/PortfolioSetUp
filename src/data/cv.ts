@@ -71,7 +71,7 @@ export const skills = [
 export const news = [
 	{
 		date: 'September 2026',
-		contentHtml: 'Participated in the 47t edition of ISCB, in Freiburg with a poster and an oral presentation'
+		contentHtml: 'Participated in the 47th edition of ISCB, in Freiburg with a poster and an oral presentation'
 	},
 
 	{
